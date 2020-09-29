@@ -12,3 +12,6 @@ echo $result1
 
 result2=$(($a * $b + $c))
 echo $result2
+
+result3=$(($a/$b+$c))
+echo $result3
