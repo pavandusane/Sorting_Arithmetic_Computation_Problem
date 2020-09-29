@@ -36,3 +36,4 @@ do
 done
 echo ${arr[@]}
 printf '%s\n' "${arr[@]}" | sort -nr
+printf '%s\n' "${arr[@]}" | sort -n
