@@ -34,5 +34,5 @@ do
    arr[$x]=$i
    let x++
 done
-echo ${!arr[@]}
 echo ${arr[@]}
+printf '%s\n' "${arr[@]}" | sort -nr
